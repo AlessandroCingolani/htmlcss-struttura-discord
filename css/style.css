@@ -71,7 +71,6 @@ header  {
   display: flex;
   width: 70%;
   height: 450px;
-  background-color: aqua;
 }
 
 .img-content-img {
@@ -84,4 +83,11 @@ header  {
   width: 40%;
   height: 100%;
   background-color: rgb(255, 192, 203);
+}
+
+.main-contents.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 70%;
+  height: 450px;
 }
