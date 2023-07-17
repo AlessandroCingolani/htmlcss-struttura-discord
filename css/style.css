@@ -7,6 +7,7 @@
 
 /* header */
 
+/* flex for the nav block */
 header  {
   display: flex;
   justify-content: center;
@@ -15,6 +16,7 @@ header  {
   height: 80px;
 }
 
+/* dimension all nav block */
 .nav-block {
   flex-basis: 70%;
   height: 40px;
@@ -23,28 +25,33 @@ header  {
   background-color: rgb(169, 129, 31);
 }
 
+/* logo block in the nav block */
 .logo-header {
   width: 20%;
   height: 100%;
   background-color: blue;
 }
 
+/* link block in the nav block */
 .link-header {
   width: 60%;
   height: 100%; 
   background-color: brown;
 }
 
+/* login block in the nav block */
 .login-header {
   width: 20%;
   height: 100%;
   background-color: blue;
 }
 
+/* display inline list of link */
 .link-header ul li{
   display: inline-block;
 }
 
+/* title and img section */
 .head-block {
   display: flex;
   justify-content: center;
@@ -53,6 +60,7 @@ header  {
   height: 500px;
 }
 
+/* block title and img */
 .title-description {
   width: 60%;
   height: 450px;
@@ -60,6 +68,7 @@ header  {
   border: 2px dashed black;
 }
 
+/* background for container main contents */
 .main-block {
   display: flex;
   justify-content: center;
@@ -67,24 +76,28 @@ header  {
   height: 500px;
 }
 
+/* block container for img and text*/
 .main-contents {
   display: flex;
   width: 70%;
   height: 450px;
 }
 
+/* block for img */
 .img-content-img {
   width: 60%;
   height: 100%;
   background-color: rgb(30, 144, 255);
 }
 
+/* block for text */
 .text-main-content {
   width: 40%;
   height: 100%;
   background-color: rgb(255, 192, 203);
 }
 
+/* for dsplay reverse img and text block */
 .main-contents.reverse {
   display: flex;
   flex-direction: row-reverse;
