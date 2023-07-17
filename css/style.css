@@ -68,7 +68,20 @@ header  {
 }
 
 .main-contents {
+  display: flex;
   width: 70%;
   height: 450px;
   background-color: aqua;
+}
+
+.img-content-img {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(30, 144, 255);
+}
+
+.text-main-content {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(255, 192, 203);
 }
