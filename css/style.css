@@ -174,7 +174,9 @@ footer {
 
 .footer-closer {
   display: flex;
+  align-self:flex-end;
   width: 70%;
   height: 40px;
   background-color: rgb(108, 212, 177);
 }
+
