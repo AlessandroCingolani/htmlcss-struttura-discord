@@ -29,11 +29,16 @@ header  {
 .logo-header {
   width: 20%;
   height: 100%;
+  display: flex;
+  align-items: center;
   border: 2px dashed black;
 }
 
 /* link block in the nav block */
 .link-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60%;
   height: 100%;
   border: 2px dashed black;
@@ -43,6 +48,9 @@ header  {
 .login-header {
   width: 20%;
   height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   border: 2px dashed black;
 }
 
@@ -50,6 +58,7 @@ header  {
 .link-header ul li{
   display: inline-block;
 }
+
 
 /* title and img section */
 .head-block {
