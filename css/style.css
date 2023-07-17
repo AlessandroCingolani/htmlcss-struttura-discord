@@ -185,6 +185,7 @@ footer {
   background-color: rgb(108, 212, 177);
 }
 
+/* position elements in the footer closer */
 .logo-footer, button {
   display: flex;
   width: 75px;
@@ -195,6 +196,7 @@ footer {
   background-color: rgb(204, 147, 156);
 }
 
+/* footer break line */
 .break-line {
   width: 100%;
   height: 1px;
