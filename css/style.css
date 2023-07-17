@@ -104,3 +104,7 @@ header  {
   width: 70%;
   height: 450px;
 }
+
+.background-change {
+  background-color: rgb(211, 211, 211);
+}
