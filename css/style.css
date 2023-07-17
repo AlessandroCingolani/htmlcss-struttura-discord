@@ -108,3 +108,16 @@ header  {
 .background-change {
   background-color: rgb(211, 211, 211);
 }
+
+.big-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+
+.big-contents {
+  width: 70%;
+  height: 700px;
+  background-color: rgb(34, 139, 34);
+}
