@@ -1,3 +1,6 @@
+/* TO ADD MIN WIDTH AND MAX  */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -142,7 +145,7 @@ footer {
   justify-content: center;
   padding-top: 10px;
   background-color:rgb(33, 36, 39);
-  height: 650px;
+  height: 800px;
 }
 
 
@@ -166,4 +169,12 @@ footer {
   height: 100%;
   background-color:rgb(32, 178, 170);
   border: 2px dashed white;
+}
+
+.footer-closer {
+  display: flex;
+  width: 70%;
+  height: 40px;
+  align-items: flex-end;
+  background-color: rgb(108, 212, 177);
 }
