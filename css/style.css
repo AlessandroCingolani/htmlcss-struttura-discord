@@ -19,7 +19,7 @@ header  {
   flex-basis: 70%;
   height: 40px;
   display: flex;
-  border: 2px solid black;
+  border: 2px dashed black;
   background-color: rgb(169, 129, 31);
 }
 
@@ -43,4 +43,19 @@ header  {
 
 .link-header ul li{
   display: inline-block;
+}
+
+.head-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(6, 6, 118);
+  height: 500px;
+}
+
+.title-description {
+  width: 60%;
+  height: 450px;
+  background-color: rgb(167, 96, 167);
+  border: 2px dashed black;
 }
