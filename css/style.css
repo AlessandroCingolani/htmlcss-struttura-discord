@@ -125,3 +125,11 @@ header  {
   background-color: rgb(34, 139, 34);
   border: 2px dashed black;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(33, 36, 39);
+  height: 650px;
+}
