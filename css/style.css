@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* header */
+
+header  {
+  display: flex;
+  background-color: rgb(161, 209, 226);
+  height: 100px;
+}
+
+.nav-block {
+  flex-basis: 70%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(169, 129, 31);
+}
