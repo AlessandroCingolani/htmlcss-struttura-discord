@@ -59,3 +59,16 @@ header  {
   background-color: rgb(167, 96, 167);
   border: 2px dashed black;
 }
+
+.main-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.main-contents {
+  width: 70%;
+  height: 450px;
+  background-color: aqua;
+}
