@@ -29,21 +29,21 @@ header  {
 .logo-header {
   width: 20%;
   height: 100%;
-  background-color: blue;
+  border: 2px dashed black;
 }
 
 /* link block in the nav block */
 .link-header {
   width: 60%;
-  height: 100%; 
-  background-color: brown;
+  height: 100%;
+  border: 2px dashed black;
 }
 
 /* login block in the nav block */
 .login-header {
   width: 20%;
   height: 100%;
-  background-color: blue;
+  border: 2px dashed black;
 }
 
 /* display inline list of link */
@@ -81,6 +81,7 @@ header  {
   display: flex;
   width: 70%;
   height: 450px;
+  border: 2px dashed black;
 }
 
 /* block for img */
@@ -88,6 +89,7 @@ header  {
   width: 60%;
   height: 100%;
   background-color: rgb(30, 144, 255);
+  border: 2px dashed black;
 }
 
 /* block for text */
@@ -95,6 +97,7 @@ header  {
   width: 40%;
   height: 100%;
   background-color: rgb(255, 192, 203);
+  border: 2px dashed black;
 }
 
 /* for dsplay reverse img and text block */
@@ -120,4 +123,5 @@ header  {
   width: 70%;
   height: 700px;
   background-color: rgb(34, 139, 34);
+  border: 2px dashed black;
 }
